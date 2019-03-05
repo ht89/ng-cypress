@@ -1,3 +1,5 @@
+/// <reference types="Cypress" />
+
 describe('My 1st test', () => {
   it('Visits the kitchen sink', () => {
     cy.visit('https://example.cypress.io');
